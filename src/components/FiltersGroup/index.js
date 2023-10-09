@@ -37,7 +37,7 @@ const FiltersGroup = props => {
     return ratingsList.map(eachRating => {
       const {changeRating} = props
       const onRatingClick = () => {
-        changeRating(eachRating.optionId)
+        changeRating(eachRating.ratingId)
       }
       return (
         <li
